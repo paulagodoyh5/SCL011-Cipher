@@ -6,9 +6,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<div id= "root">
+
+<div id="firstBox" class="firtsBox">
+ <!--Página de bienvenida-->
+
+      <h1>Bienvenido al Cógido estudiantil</h1>
+      <p> Sólo para <span style="color: red;">estudiantes</span>
+      </p>
+
+<!--Bajada de título-->
+      
+  <h3> Este sitio será utilizado para el <b>uso exclusivo de dirigentes estudiantiles</b> </h3>
+            
+      <p>Para acceder a <b>código estudiantil</b> debes responder la pregunta a continuación.</p>
+
+<!--Pregunta/respuesta -->
+
+  <h2>Debes usar este sitio responsablemente</h2>
+
+  <button id="showButton">Ingresar</button>
+</div>
+
+<div id= "principalPage" class= "principalPage">
+
+  <h2>Página de inicio para cifrar</h2> <br>
+
+<!--Offset -->
+
+<input id="offsetText" type="number" placeholder="Número" rows="6" cols="6">
+        <br/>
+        <br/>
+
+<!-- Caja de texto para cifrar -->    
+    
+    <textarea id="principalText" placeholder="Escribe texto para cifrar" rows="10" cols="30"></textarea>
+    <button id="cipherButton">Cifrar</button>
+    <textarea id="cipherText" rows="10" cols="30"></textarea>
+
+        <br/>
+        <br/>
+
+<!-- Caja de texto para cifrar -->  
+
+    <textarea id="principalText1" placeholder="Escribe texto para cifrar" rows="10" cols="30"></textarea>
+    <button id="cipher1">Descifrar</button>
+    <textarea id="cipherText1" rows="10" cols="30"></textarea>
+
+
     </div>
+  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

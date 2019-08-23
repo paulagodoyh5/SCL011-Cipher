@@ -1,7 +1,7 @@
 describe('cipher', () => {
 
-  it('debería ser un objeto', () => {
-    assert.equal(typeof cipher, 'object');
+  it('debería ser un objeto', () => {//Que voy a testear
+    assert.equal(typeof cipher, 'object');//Comparacion
   });
 
   describe('cipher.encode', () => {
@@ -10,7 +10,9 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33');
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', ()=>{
+      assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG")
+    });
   });
 
   describe('cipher.decode', () => {
