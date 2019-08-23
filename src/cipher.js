@@ -20,7 +20,7 @@ let result="";
 
   for (let i = 0; i < message.length ; i++) {
 
-   let ascii = ((message.charCodeAt(i) - 65 - offset)%26 + 65);
+   let ascii = ((message.charCodeAt(i) - 90 - offset)%26 + 90);
 
 //CIFRADO MAYUSCULAS 
  //if (ascii >= 65 && ascii <= 90) {

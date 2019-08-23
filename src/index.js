@@ -49,12 +49,11 @@ offset = parseInt(document.getElementById("offsetText").value);
     console.log(offset)
 });
 */
-
-const btnSave1 = document.getElementById("decipherButton");
-btnSave1.addEventListener("click", () => {
+const btnSaave = document.getElementById("decipherButton");
+btnSaave.addEventListener("click", () => {
 let message = document.getElementById("principalText1").value.toUpperCase();
 let offset = parseInt(document.getElementById("offsetText").value);
 
-document.getElementById("decipherText").innerHTML = window.cipher.decode(message, offset);
+document.getElementById("decipherText").innerHTML = window.cipher.decode (message, offset);
 
 });
