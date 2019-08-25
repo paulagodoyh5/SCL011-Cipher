@@ -1,8 +1,35 @@
 # Cifrado César
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+A lo largo de las últimas 2 décadas, el sistema educativo chileno ha sido cuestionado por distintos aspectos y los mismos estudiantes han sido protagonistas de distintas movilizaciones. 
+
+El movimiento estudiantil chileno ha tenido un gran impacto en el país, pasando por diversas etapas en las últimas décadas, de estas las más emblemáticas fueron La **Revolución Pingüina** en el año 2006 y **El Invierno Chileno** en 2011. 
+
+Los movimientos estudiantiles deben tener mucha organización para lograr sus objetivos y para la manipulación de la información siempre ha sido muy importante la **discreción**. Es por ello que el **Cifrado César** es una buena opción para que los estudiantes se puedan comunicar vía redes sociales con **Códigos secretos**. 
+
+##Usuario:
+
+El uso de la página web debe ser solamente para los **dirigente estudiantiles**, ya que ellos son los encargados de comunicar y organizar al resto de sus compañeros. 
+
+###Características de usuario:
+
+- Estudiante entre 15 y 24 años. (Enseñanza media y superior).
+
+- Es una persona que ejerce su posición de liderazgo.
+
+- Debe ser discreto y serio con el uso de información.
+
+##Proceso para definir producto:
+
+
+
+
+
+
+
+
+
+
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
@@ -58,6 +85,11 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 #### Definición del producto
 
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+
+
+
+
+En contexto de movilizaciones estudiantiles, 
 
 - Quiénes son los principales usuarios de producto.
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
