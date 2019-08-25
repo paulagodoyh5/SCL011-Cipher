@@ -4,19 +4,18 @@ window.cipher = {
       let result="";
       let ascii= "";
       let espacio="";
-
+      console.log(message)
     for (let i = 0; i < message.length ; i++) {
       ascii = ((message.charCodeAt(i) - 65 + offset)%26 + 65);
-      console.log("hola")
-
- 
-    if (ascii === 32) {
-        result = String.fromCharCode(32);
-    }
+      console.log(ascii)
       ascii = String.fromCharCode(ascii);
-       result += ascii;
-    
-  }return result;
+      console.log(ascii)
+      result += ascii;
+ 
+    /*if (ascii === 32) {
+        result = String.fromCharCode(32);
+    }*/ 
+  }return ascii;
 },
   decode: (message, offset) => {
 
