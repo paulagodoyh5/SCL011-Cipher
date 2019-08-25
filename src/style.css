@@ -1,20 +1,88 @@
 body{
-
     font-family: sans-serif;
-    background: 0%;
     text-align-last: center;
-    
-}
-h1{
-    text-align: center;
-
 }
 
-#firstBox {
+.firstBox {
     display:block;
   }
 
+.backGround {
 
-#principalPage{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #1F618D ;
+    width: 60%;
+    height: 500px;
+
+}
+
+.welcome {
+
+    position: absolute;
+    background:#85C1E9;
+    background-position: center;
+    opacity: 80%;
+    margin: 5% 10%;
+    padding: 10%;
+    height: 270px;
+    font: 1em sans-serif;
+    text-align: center;
+    line-height: 130%;
+    color: #1F618D;
+  }
+
+.showButton{
+
+  background-color:  #1F618D;
+  border: darkgray;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.titleWelcome{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.list{
+
+    float:center;
+
+}
+.imagenRight {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    right: 0px;
+    background-image: url("https://i.ibb.co/JzKzs5T/nueva.jpg");
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 500px;
+}
+
+.instructions{
+    background: #1F618D;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana;
+    color: #1F618D;
+    size: 100 px;
+    text-transform: uppercase;
+
+}
+
+.principalPage{
     display:none;
 }

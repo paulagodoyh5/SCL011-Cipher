@@ -12,20 +12,25 @@
 
 <div id="firstBox" class="firtsBox">
 
+  <div class= "backGround">
 
-      <h1>Bienvenido al Cógido estudiantil</h1>
-      <p> Sólo para <span style="color: red;">estudiantes</span>
-      </p>
+  <div id="welcome" class="welcome">
+
+      <h2 class="titleWelcome">Bienvenido al <br/> Código estudiantil</h2>
+      <p>Sólo para <span style="color:white;">estudiantes</span></p>
 
 <!--Bajada de título-->
       
     <h3> Este sitio será utilizado para el <b>uso exclusivo de dirigentes estudiantiles</b> </h3>
             
-    <p>Para acceder a <b>código estudiantil</b> debes responder la pregunta a continuación.</p>
+   <p>Debes hacer uso de esta página responsablemente</p>
 
-   <h2>Debes usar este sitio responsablemente</h2>
+   <button id="showButton" class="showButton">Ingresar</button>
+  </div> </div>
 
-   <button id="showButton">Ingresar</button>
+<!--Imagen lateral-->
+
+  <div class= "imagenRight"></div>
 
 </div>
 
@@ -33,10 +38,22 @@
 
 <div id= "principalPage" class= "principalPage">
 
-  <h2>Página de inicio para cifrar</h2> <br>
+  <h1>Código estudiantil</h1> 
+
+<!-- Instrucciones -->
+<div class= "instructions">
+<h3>Restricciones de uso</h3>
+<ul class="list">
+  <li>Para el desplazamiento <i>sólo debes usar números positivos</i></li>
+  <li>El texto ingresado para cifrar debe contener caracteres entre la A y la Z (no se puede usar la letra Ñ)</li>
+  <li>El texto de resultado cifrado será en mayúsculas </li>
+</ul>
+</div>
+
 
 <!--Offset -->
 
+Ingresa número de desplazamiento:
 <input id="offsetText" type="number" placeholder="Número">
         <br/>
         <br/>
@@ -56,6 +73,8 @@
     <button id="decipherButton">Descifrar</button>
     <textarea id="decipherText" rows="10" cols="30"></textarea>
 
+
+    
     </div>
   </div>
 
